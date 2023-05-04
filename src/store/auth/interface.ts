@@ -1,4 +1,3 @@
-import { Member } from "store/members";
 
 export interface IResponse {
     status: boolean;
@@ -20,9 +19,9 @@ export interface User {
     username: string;
 }
 
-export interface UserWithMember extends User {
-    member: Member
-}
+// export interface UserWithMember extends User {
+//     member: Member
+// }
 
 export interface Auth {
     user?: User | null;

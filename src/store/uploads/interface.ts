@@ -1,7 +1,5 @@
-import { Department } from "store/departments";
 import { PaginatedPayload } from "@store/interface";
-import { IResponse, User, UserWithMember } from "../auth"
-import { Member } from "@store/members";
+import { IResponse } from "../auth";
 
 export interface RequiresUploadID {
     uploads: (number | string)[],
@@ -32,7 +30,7 @@ export interface BaseUpload {
     provider: string;
     url: string;
     meta: { type: string, size: number, name: string, extension: string, name_on_disk: string }
-    creator?: UserWithMember;
+    // creator?: UserWithMember;
     created_by: number;
     updated_at: string;
     created_at: string;

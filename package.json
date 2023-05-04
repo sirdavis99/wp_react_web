@@ -6,6 +6,7 @@
     "@chakra-ui/react": "^2.6.1",
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
+    "@react-icons/all-files": "^4.1.0",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -37,6 +38,7 @@
     "react-scripts": "5.0.1",
     "react-toastify": "^9.1.2",
     "reactjs-localstorage": "^1.0.1",
+    "sass": "^1.62.1",
     "tldts": "^6.0.4",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
@@ -68,5 +70,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/quill": "^2.0.10"
   }
 }
