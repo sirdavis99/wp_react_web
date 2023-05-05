@@ -20,9 +20,9 @@ export const HomeScreen = () => {
     }, [])
     return (
         <div>
-            <nav className={`navbar navbar-expand-lg fixed-top navbar-dark px-md-5 ${showNavBackground ? 'navbar-scrolled' : 'bg-transparent'}`}>
+            <nav className={`navbar navbar-expand-lg fixed-top navbar-dark px-3  px-md-5 ${showNavBackground ? 'navbar-scrolled' : 'bg-transparent'}`}>
                 <a className="navbar-brand" href="#">
-                    <img src={require('../../assets/images/logo-white.png')} className="img-fluid" />
+                    <img src={require('../../assets/images/logo-white.png')} className="img-fluid" width={'50px'}/>
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -64,9 +64,9 @@ export const HomeScreen = () => {
                 <div className="container-fluid">
                     <Row>
                         <Col xs={12} md={6}>
-                            <div className="d-flex justify-content-end h-100 ps-5">
-                                <div className="text-start align-self-center">
-                                    <div className="fw-bold text-start display-2 mb-3">
+                            <div className="d-flex justify-content-end h-100 ps-md-5">
+                                <div className="text-start align-self-center mt-5 mt-md-0">
+                                    <div className="fw-bold text-start display-2 mb-3 mt-5 mt-md-0">
                                         <div>PLAY THE </div>
                                         <div style={{ color: "#7AF2B9" }}>BEAUTIFUL GAME</div>
                                     </div>
@@ -104,7 +104,7 @@ export const HomeScreen = () => {
                     <div className="container-fluid section-game_on my-5">
                         <Row>
                             <Col xs={12} md={6}>
-                                <div className="d-flex justify-content-end h-100 ps-5">
+                                <div className="d-flex justify-content-end h-100 ps-md-5">
                                     <div className="text-start align-self-center">
                                         <div className="fw-bold text-start display-6 mb-4">
                                             <div className="mb-3">THE ULTIMATE DESTINATION FOR  </div>
@@ -150,7 +150,7 @@ export const HomeScreen = () => {
                     <div className="container-fluid py-5">
                         <Row>
                             <Col xs={12} md={6}>
-                                <div className="d-flex justify-content-end h-100 ps-5">
+                                <div className="d-flex justify-content-end h-100 ps-md-5 mb-5 mb-md-0">
                                     <div className="text-start align-self-center">
                                         <div className="fw-bold text-start display-5 mb-3">
                                             <div>PLAY THE </div>
@@ -188,8 +188,8 @@ export const HomeScreen = () => {
                 <Box className="py-4 px-4">
                     <div className="container-fluid py-5">
                         <Row>
-                            <Col xs={12} md={6}>
-                                <div className="d-flex justify-content-center">
+                            <Col xs={12} md={6} >
+                                <div className="d-flex justify-content-center mb-5 mb-md-0">
                                     <img
                                         className="img-fluid"
                                         src={require('../../assets/images/website-view-2.png')}
@@ -198,7 +198,7 @@ export const HomeScreen = () => {
                                 </div>
                             </Col>
                             <Col xs={12} md={6}>
-                                <div className="d-flex justify-content-end h-100 pe-5">
+                                <div className="d-flex justify-content-end h-100 pe-md-5">
                                     <div className="text-end align-self-center">
                                         <div className="fw-bold text-end display-5 mb-3">
                                             <div>PLAY THE </div>
@@ -289,9 +289,9 @@ export const HomeScreen = () => {
                             <div>01988778998</div>
                             <div>
                                 <Row>
-                                    <Col sm={2}><FaFacebook size={20} /></Col>
-                                    <Col sm={2}><FaGoogle size={20} /></Col>
-                                    <Col sm={2}><FaTwitter size={20} /></Col>
+                                    <Col xs={2}><FaFacebook size={20} /></Col>
+                                    <Col xs={2}><FaGoogle size={20} /></Col>
+                                    <Col xs={2}><FaTwitter size={20} /></Col>
                                 </Row>
                             </div>
                         </div>
